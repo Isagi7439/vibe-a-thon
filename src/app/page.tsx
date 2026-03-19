@@ -852,7 +852,7 @@ export default function Home() {
               transition: 'all 0.2s ease'
             }}
           >
-            Compare Models
+            Search
           </button>
         </div>
       </div>
