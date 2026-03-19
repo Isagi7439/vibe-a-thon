@@ -1,0 +1,64 @@
+{"timestamp":"00:00:01.470","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.342","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:31.774","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:37.332","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.334","source":"Server","level":"LOG","message":"╔═══════════════════════════════════════════════════════╗"}
+{"timestamp":"00:00:37.335","source":"Server","level":"LOG","message":"║       📱  SMARTPHONE AI AGENT  v1.0.0                ║"}
+{"timestamp":"00:00:37.335","source":"Server","level":"LOG","message":"║       Powered by Groq AI · Avalanche · x402           ║"}
+{"timestamp":"00:00:37.336","source":"Server","level":"LOG","message":"╚═══════════════════════════════════════════════════════╝"}
+{"timestamp":"00:00:37.336","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.337","source":"Server","level":"LOG","message":"  System Status:"}
+{"timestamp":"00:00:37.338","source":"Server","level":"LOG","message":"  ✓ LLM         : llama-3.3-70b-versatile"}
+{"timestamp":"00:00:37.338","source":"Server","level":"LOG","message":"  ✓ Research     : Serper API (live search)"}
+{"timestamp":"00:00:37.339","source":"Server","level":"LOG","message":"  ✓ x402         : Enabled (signer: 0x72030262...)"}
+{"timestamp":"00:00:37.700","source":"Server","level":"LOG","message":"  ✓ Avalanche    : Avalanche Mainnet (C-Chain)"}
+{"timestamp":"00:00:37.701","source":"Server","level":"LOG","message":"    Wallet: 0x72030262...8A470373"}
+{"timestamp":"00:00:37.701","source":"Server","level":"LOG","message":"    Balance: 0.0000 AVAX"}
+{"timestamp":"00:00:37.702","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.703","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.703","source":"Server","level":"LOG","message":"  ─── Starting Analysis Pipeline ─────────────────────"}
+{"timestamp":"00:00:37.704","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:37.726","source":"Server","level":"ERROR","message":"(node:34480) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.\n(Use `node --trace-deprecation ...` to show where the warning was created)"}
+{"timestamp":"00:00:43.874","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:45.343","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:45.920","source":"Server","level":"WARN","message":"  ⚠  Insufficient AVAX balance for on-chain logging. \"\\n     Balance: 0.0 AVAX\" \"\\n     Needed:  ~0.000000527584428 AVAX\""}
+{"timestamp":"00:01:00.957","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:00.958","source":"Server","level":"LOG","message":"╔═══════════════════════════════════════════════════════╗"}
+{"timestamp":"00:01:00.959","source":"Server","level":"LOG","message":"║       📱  SMARTPHONE AI AGENT  v1.0.0                ║"}
+{"timestamp":"00:01:00.959","source":"Server","level":"LOG","message":"║       Powered by Groq AI · Avalanche · x402           ║"}
+{"timestamp":"00:01:00.960","source":"Server","level":"LOG","message":"╚═══════════════════════════════════════════════════════╝"}
+{"timestamp":"00:01:00.960","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:00.961","source":"Server","level":"LOG","message":"  System Status:"}
+{"timestamp":"00:01:00.961","source":"Server","level":"LOG","message":"  ✓ LLM         : llama-3.3-70b-versatile"}
+{"timestamp":"00:01:00.962","source":"Server","level":"LOG","message":"  ✓ Research     : Serper API (live search)"}
+{"timestamp":"00:01:00.962","source":"Server","level":"LOG","message":"  ✓ x402         : Enabled (signer: 0x72030262...)"}
+{"timestamp":"00:01:01.352","source":"Server","level":"LOG","message":"  ✓ Avalanche    : Avalanche Mainnet (C-Chain)"}
+{"timestamp":"00:01:01.353","source":"Server","level":"LOG","message":"    Wallet: 0x72030262...8A470373"}
+{"timestamp":"00:01:01.354","source":"Server","level":"LOG","message":"    Balance: 0.0000 AVAX"}
+{"timestamp":"00:01:01.354","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:01.355","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:01.355","source":"Server","level":"LOG","message":"  ─── Starting Analysis Pipeline ─────────────────────"}
+{"timestamp":"00:01:01.356","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:05.361","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:06.691","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:07.259","source":"Server","level":"WARN","message":"  ⚠  Insufficient AVAX balance for on-chain logging. \"\\n     Balance: 0.0 AVAX\" \"\\n     Needed:  ~0.000000572069001 AVAX\""}
+{"timestamp":"00:01:40.705","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:02:41.612","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:41.613","source":"Server","level":"LOG","message":"╔═══════════════════════════════════════════════════════╗"}
+{"timestamp":"00:02:41.613","source":"Server","level":"LOG","message":"║       📱  SMARTPHONE AI AGENT  v1.0.0                ║"}
+{"timestamp":"00:02:41.614","source":"Server","level":"LOG","message":"║       Powered by Groq AI · Avalanche · x402           ║"}
+{"timestamp":"00:02:41.615","source":"Server","level":"LOG","message":"╚═══════════════════════════════════════════════════════╝"}
+{"timestamp":"00:02:41.615","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:41.615","source":"Server","level":"LOG","message":"  System Status:"}
+{"timestamp":"00:02:41.616","source":"Server","level":"LOG","message":"  ✓ LLM         : llama-3.3-70b-versatile"}
+{"timestamp":"00:02:41.616","source":"Server","level":"LOG","message":"  ✓ Research     : Serper API (live search)"}
+{"timestamp":"00:02:41.617","source":"Server","level":"LOG","message":"  ✓ x402         : Enabled (signer: 0x72030262...)"}
+{"timestamp":"00:02:42.051","source":"Server","level":"LOG","message":"  ✓ Avalanche    : Avalanche Mainnet (C-Chain)"}
+{"timestamp":"00:02:42.051","source":"Server","level":"LOG","message":"    Wallet: 0x72030262...8A470373"}
+{"timestamp":"00:02:42.052","source":"Server","level":"LOG","message":"    Balance: 0.0000 AVAX"}
+{"timestamp":"00:02:42.052","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:42.053","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:42.053","source":"Server","level":"LOG","message":"  ─── Starting Analysis Pipeline ─────────────────────"}
+{"timestamp":"00:02:42.053","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:46.605","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:53.265","source":"Server","level":"ERROR","message":"API Route Error: Error: LLM ranking failed: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kkngxqxqfmkb3zccgy8bh145` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98968, Requested 3735. Please try again in 38m55.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"}

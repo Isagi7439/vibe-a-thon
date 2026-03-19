@@ -4,12 +4,19 @@
   "description": "AI agent for smartphone recommendations with Avalanche blockchain and x402 integration",
   "main": "dist/cli/cli.js",
   "scripts": {
-    "start": "ts-node src/cli/cli.ts",
-    "build": "tsc",
-    "dev": "ts-node src/cli/cli.ts",
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["ai", "agent", "smartphone", "web3", "avalanche", "x402"],
+  "keywords": [
+    "ai",
+    "agent",
+    "smartphone",
+    "web3",
+    "avalanche",
+    "x402"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -20,12 +27,16 @@
     "ethers": "^6.13.5",
     "groq-sdk": "^0.9.1",
     "inquirer": "^8.2.6",
+    "next": "^16.2.0",
     "ora": "^5.4.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "x402-axios": "^0.5.0"
   },
   "devDependencies": {
     "@types/inquirer": "^8.2.10",
     "@types/node": "^22.10.2",
+    "@types/react": "19.2.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }

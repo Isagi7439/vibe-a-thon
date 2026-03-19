@@ -42,6 +42,18 @@ export interface RankedPhone {
   purchase_link?: string;
 }
 
+export interface PhoneSpecs {
+  model: string;
+  price: string;
+  processor: string;
+  ram: string;
+  storage: string;
+  camera: string;
+  battery: string;
+  display: string;
+  key_strengths: string[];
+}
+
 export interface SerperSearchResult {
   organic: Array<{
     title: string;

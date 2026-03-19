@@ -253,7 +253,7 @@ function buildSearchQueries(
   return queries;
 }
 
-async function searchSerper(
+export async function searchSerper(
   query: string,
   apiKey: string,
   httpClient: AxiosInstance
@@ -333,10 +333,20 @@ export async function searchPhones(
 function filterFallbackByRequirements(
   req: import("../types/index").UserRequirements
 ): PhoneCandidate[] {
-  // Parse budget range (handles "$300-$500", "under $500", "$800+", etc.)
-  const budgetNums = req.budget.match(/\d+/g)?.map(Number) ?? [];
-  const maxBudget = budgetNums.length > 0 ? Math.max(...budgetNums) : Infinity;
-  const minBudget = budgetNums.length > 1 ? Math.min(...budgetNums) : 0;
+  // Parse budget range and strip commas to correctly parse numbers like 50,000
+  let sanitizedBudget = req.budget.toLowerCase().replace(/,/g, '');
+  // Convert 'k' notation to thousands (e.g. '5k' -> '5000')
+  sanitizedBudget = sanitizedBudget.replace(/(\d+)k/g, (match, p1) => String(parseInt(p1, 10) * 1000));
+  
+  const budgetNums = sanitizedBudget.match(/\d+/g)?.map(Number) ?? [];
+  let maxBudget = budgetNums.length > 0 ? Math.max(...budgetNums) : Infinity;
+  let minBudget = budgetNums.length > 1 ? Math.min(...budgetNums) : 0;
+
+  // Simple heuristic for INR -> USD conversion for fallback list filtering
+  if (req.budget.toLowerCase().includes('₹') || req.budget.toLowerCase().includes('inr') || maxBudget >= 4000) {
+    maxBudget = maxBudget / 83;
+    minBudget = minBudget / 83;
+  }
 
   return FALLBACK_PHONES.filter((phone) => {
     // Budget filter
